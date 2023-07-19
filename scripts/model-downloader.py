@@ -45,7 +45,7 @@ embedding_path = args.embeddings_dir
 hypernetwork_path = args.hypernetwork_dir
 lora_path = args.lora_dir
 lycoris_path = args.lyco_dir
-controlnet_path = os.path.join(extensions_dir, 'sd-webui-controlnet')
+controlnet_path = os.path.join(models_path, 'ControlNet')
 controlnet_model_path = os.path.join(controlnet_path, 'models')
 
 print(f'Model Downloader v1.0.6 fixed')
