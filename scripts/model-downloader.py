@@ -46,7 +46,7 @@ hypernetwork_path = args.hypernetwork_dir
 lora_path = args.lora_dir
 lycoris_path = args.lyco_dir
 controlnet_path = os.path.join(models_path, 'ControlNet')
-controlnet_model_path = os.path.join(controlnet_path, 'models')
+controlnet_model_path = controlnet_path
 
 print(f'Model Downloader v1.0.6 fixed')
 print('Checking Directories...')
