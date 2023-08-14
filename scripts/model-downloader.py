@@ -178,10 +178,11 @@ def start_downloading(download_btn, url, downloadpath, filename, addnet, logging
               yield line
               print(line)
            else:
-                line = os.popen(command)
-                for l in line:
-                    l = l.rstrip()
-                    yield f'{complete1}{final_target}'
+                #line = os.popen(command)
+                os.system(command)
+                #for l in line:
+                #    l = l.rstrip()
+                yield f'{complete1}{final_target}'
                 print(f'{complete1}{final_target}')
        except Exception:
                yield f'{Exception}\n{complete3}'
